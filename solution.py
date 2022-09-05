@@ -8,6 +8,7 @@ def solution(progresses, speeds): #기능개발
     answer = []
     max_day = 0
     count = 0
+    count1 = 0 
     for i in range(len(day)):
         d = day.pop(0)
         if d <= max_day:
